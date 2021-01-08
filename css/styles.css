@@ -18,8 +18,8 @@ h1{
 }
 
 body{
-	background-image: url('thunderstorm.jpg');
-	/*background-color: #BAAAFE;*/
+	
+	background-color: #BAAAFE;
 }
 div.coral{
 	background-color: #EACDF2;
@@ -27,5 +27,6 @@ div.coral{
 
 }
 #bg{
-
+   background-image: url('thunderstorm.jpg');
+   
 }
