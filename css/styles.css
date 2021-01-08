@@ -18,15 +18,13 @@ h1{
 }
 
 body{
+
+	background-image: url('black-1072366_1920.jpg');
 	
-	background-color: #BAAAFE;
+	/* background-color: #BAAAFE; */
 }
 div.coral{
 	background-color: #EACDF2;
 	color: #56365E;
-
-}
-#bg{
-   background-image: url(thunderstorm.png);
 
 }
