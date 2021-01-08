@@ -3,3 +3,29 @@ h4{
 	font-size: 40px;
 	font-family: 'Arial', sans-serif;
 }
+
+h1{
+	/*Named color:*/
+	/*color:pink;*/
+
+	/*Hex colors:*/;
+	 color: #d631c9;
+	/*color codes digits range from 1 - 9 and then from a-f*/
+
+    /*RGB colors*/
+	/*color: rgb(20, 120, 80);*/
+	/*red,green, blue; colors go from 0 to 255*/
+}
+
+body{
+	background-image: url('thunderstorm.jpg');
+	/*background-color: #BAAAFE;*/
+}
+div.coral{
+	background-color: #EACDF2;
+	color: #56365E;
+
+}
+#bg{
+
+}
