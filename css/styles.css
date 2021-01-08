@@ -43,3 +43,22 @@ nav {
 	background-color: #FF9DC2;
 	
 }
+p{
+	display: inline-block;
+	width: 100px; 
+	height: 50px; 
+	padding: 10px; 
+	margin: 10px;
+	border: 1px solid white;
+}
+#padd{
+	border-width: 1px; 
+	border-color: white;
+	border-style: solid; 
+
+	/*padding: 5px;*/
+	/*the long way is to padd top, right, bottom, left, in that order */
+    padding: 6px 0 8px 9px; 
+          /*top,right,bott,left*/
+}
+
