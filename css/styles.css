@@ -19,7 +19,9 @@ h1{
 
 body{
 
-	background-image: url('black-1072366_1920.jpg');
+   color: white;
+   margin: 20px;
+   padding: 0px;
 	
 	/* background-color: #BAAAFE; */
 }
@@ -27,4 +29,17 @@ div.coral{
 	background-color: #EACDF2;
 	color: #56365E;
 
+}
+nav {
+	 
+	border-style: dashed; 
+	border-width: 5px; 
+	border-color:  #8320E4;
+
+	border-bottom-width: 2px; 
+	border-bottom-color: #2FDA26;
+	border-bottom-style: solid;
+
+	background-color: #FF9DC2;
+	
 }
