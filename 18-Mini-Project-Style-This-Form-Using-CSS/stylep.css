@@ -12,14 +12,12 @@ nav {
   margin-bottom: 15px;
   background-color: #fff;
 }
-label{
-  
-  margin: 0 auto;
-}
 
- input, textarea, button {
+
+ label, input, textarea, button {
   display: block;
    margin: 0 auto;
+   
 }
 .content {
   max-width: 500px;
