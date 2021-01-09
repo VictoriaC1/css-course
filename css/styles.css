@@ -19,7 +19,7 @@ h1{
 
 body{
    
-   color: white;
+   color: black;
    margin: 20px;
    padding: 0px;
 	
@@ -49,11 +49,11 @@ p{
 	height: 50px; 
 	padding: 10px; 
 	margin: 10px;
-	border: 1px solid white;
+	border: 1px solid black;
 }
 #padd{
 	border-width: 1px; 
-	border-color: white;
+	border-color: black;
 	border-style: solid; 
 
 	/*padding: 5px;*/
@@ -62,3 +62,9 @@ p{
           /*top,right,bott,left*/
 }
 
+p.blue{
+	color: blue;
+}
+p.orange{
+	color: orange;
+}
