@@ -12,19 +12,28 @@ nav {
   margin-bottom: 15px;
   background-color: #fff;
 }
+label{
+  
+  margin: 0 auto;
+}
 
-label, input, textarea, button {
+ input, textarea, button {
   display: block;
+   margin: 0 auto;
 }
 .content {
   max-width: 500px;
-  margin: auto;
+  
+  margin: 0 auto;
+
+  
 }
 form{
   border: 1px solid black;
   font-size: 15px;
   font-family: 'Monaco', monospace;
   padding: 5px;
+  
 }
 nav{
   background-color: #C5EEDC;
