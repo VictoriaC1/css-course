@@ -131,3 +131,8 @@ div.justify{
  	word-spacing: 50px;
  	/*can also do negative values, percentage, cm,...*/
  }
+ .font{
+ 	/*not everyone has the same fonts on their computer*/
+ 	font-family: Georgia, Arial, sans-serif;
+ 	/*if it doesn't have Georgia, it will go to Arial, and so on*/
+ }
