@@ -88,3 +88,23 @@ div.justify{
 	text-align: justify;
 	/*extra space between the words so the first word touches the left border, and the last right word touches the right*/
 }
+
+.textdec{
+	/* text-decoration: underline;*/
+	/*overline,...*/
+	text-decoration: line-through; /*strike - s in HTML*/
+	color: red;
+	text-decoration-color: blue;
+	text-decoration-style: dotted;
+ 
+
+}
+#transf{
+	text-transform: lowercase;
+	text-transform: capitalize;
+	/*text-transform: initial; */
+	/*resets text to default style*/
+}
+ .indent{
+ 	text-indent: 60px;
+ }
