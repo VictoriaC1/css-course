@@ -21,7 +21,7 @@ body{
    
    color: black;
    margin: 20px;
-   padding: 0px;
+   padding: 10px;
 	
 	/* background-color: #BAAAFE; */
 }
@@ -107,4 +107,27 @@ div.justify{
 }
  .indent{
  	text-indent: 60px;
+ 	/*we can also do: 1cm, 1em, 50%, ...*/ 
+ }
+ .spacing{
+ 	text-indent: 25px;
+ 	text-align: justify;
+ 	letter-spacing: 2px;
+ 	/*we can do negative values, or values with a point: 1.5px,-2px...*/
+ }
+ .heightl{
+ 	font-size: 30px;
+ 	line-height: 20px;
+ 	/*10px with the default size text looks weird because the font is bigger than 10px*/
+ 	/*line height of 2 is the same as 200% */
+ 	/* line height should be orientated after text size*/
+ }
+ .direction{
+ 	direction: rtl; 
+ 	/*left to right is the default*/
+ 	/*websites with rig to lef are usually in other languages*/
+ }
+ .wspace{
+ 	word-spacing: 50px;
+ 	/*can also do negative values, percentage, cm,...*/
  }
