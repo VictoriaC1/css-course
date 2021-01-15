@@ -136,3 +136,12 @@ div.justify{
  	font-family: Georgia, Arial, sans-serif;
  	/*if it doesn't have Georgia, it will go to Arial, and so on*/
  }
+ h5{
+ 	/*linked in index*/
+ 	font-family: 'Hachi Maru Pop', cursive;
+ 	font-size: 30px;
+ }
+ .fstyle{
+ 	font-style: italic;
+ 	/*we can do: none, inital, oblique (slight difference from italic);*/
+ }
