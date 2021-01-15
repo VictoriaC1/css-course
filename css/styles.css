@@ -145,3 +145,13 @@ div.justify{
  	font-style: italic;
  	/*we can do: none, inital, oblique (slight difference from italic);*/
  }
+ .fsize{
+ 	/*we talk about height and width*/ 
+ 	font-size: 
+ }
+ .fweight{
+ 	font-family: 'Press Start 2P', cursive;
+ 	font-weight: 900; /*400 is the default*/
+ 	font-size: 20px; 
+
+ }
