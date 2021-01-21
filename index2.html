@@ -7,6 +7,114 @@
 
 <body>
 <h1>Links</h1>
-<a href="https://www.w3schools.com/css/" style="color: red; text-decoration: none;">w3schools</a>
+<a href="https://www.w3schools.com/css/" style="color: red; text-decoration: none; ">w3schools</a>
+<a href="https://www.w3schools.com/css/" class="link2">w3schools</a>
+
+
+<h1>Grouping selectors</h1>
+
+<div>first element</div>
+<span>second element</span>
+<p>third element</p>
+
+
+<div class="certain-class">grouped a class with another element</div>
+
+<div id="bodyofselctors">
+<h1>Descendant selectors</h1>
+<div>div text here
+   <p>
+   	paragraph text here
+   	<span>span text here, change only me</span>
+   </p>
+   <span>another span</span>
+</div>
+</div>
+<span>another span</span>
+<!--SPECIFITY!-->
+
+<h1>Child selectors</h1>
+<!--something inside of something-->
+<span>
+<div>
+	<p>child element</p>
+</div>
+</span>
+<!-- div > p, p is a child of div-->
+<h1>Adjacent selectors</h1>
+<!--when you want to select and element and the one right after it-->
+
+<form>
+	<label>Name:</label>
+	<input type="text"> 
+	<br>
+	<br>
+	<input type="text">
+</form>
+
+<h1>Lists</h1>
+
+<ol>
+	 <li>Element 1</li>
+	 <li>Element 2</li>
+	 <li>Element 3</li>
+	 <li>Element 4</li>
+</ol>
+<h2>List style position</h2>
+<div>INSIDE</div>
+<ul class="inside">
+	<li>Element 1</li>
+	<li>Element 2</li>
+	<li>Element 3</li>
+	<li>Element 4</li>
+	
+</ul>
+<div>OUTSIDE</div>
+<ul class="outside">
+	<li>Element 1</li>
+	<li>Element 2</li>
+	<li>Element 3</li>
+	<li>Element 4</li>
+	
+</ul>
+<h2>list style image</h2>
+<ul class="image">
+	<li>Element 1</li>
+	<li>Element 2</li>
+	<li>Element 3</li>
+	<li>Element 4</li>
+	
+</ul>
+<h1>Tables</h1>
+
+<table>
+	<tr>
+		<td>test</td>
+		<td>test</td>
+		<td>test</td>
+		<td>test</td>
+	</tr>
+
+</table>
+<br>
+<br>
+<table class="thov">
+	<tr>
+		<td>
+			<p>A new line</p>
+			<p>A new line</p>
+			<p>A new line</p>
+			<p>A new line</p>
+		</td>
+		<td style="vertical-align: top;">align me</td>
+	</tr>
+</table>
+
+
+
+
+
+
+
 </body>
 </html>

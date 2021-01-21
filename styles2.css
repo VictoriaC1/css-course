@@ -1,6 +1,83 @@
+body{
+	padding: 30px;
+	background-image: url('light-1282314_1920.jpg');
+	background-repeat: repeat-y;
+
+}
+
 /* mouse over link */
-a:hover {
+.link2:hover {
   color: hotpink;
 }
-h1{color: yellow;}
+h1{
+	color: blue;
+}
 
+/*the same :active, :visited*/
+/*visited is when after you click a link it changes*/ 
+/*active state is when you click on a link it changes*/
+
+div,p{
+	font-family: 'Sofia', cursive;
+	color: #0B4F5E;
+}
+
+.certain-class,span{
+	color: purple;
+}
+/*you can also group multiple classe*/
+
+#bodyofselctors div p span{
+	color: red;
+	text-decoration:  underline;
+
+}
+span > div > p {
+	color: #F51D82;
+}
+/*it is only gonna look for the p that has a parent of div that has a parent os span*/
+
+form, label + input{
+	background-color: transparent;
+
+}
+/*we look inside form then label and the first input element after it-->
+/*if the input is not right after the label and there is something between them it doesn't work*/
+ol{
+	/*list-style-type: circle;
+	/*we also have lower and upper roman, decimal, upper lower alpha,...*/
+	list-style-type: none;
+}
+ol > li{
+	border: 1px solid black;
+	padding: 8px;
+	width: 50%;
+	text-align: center;
+
+
+}
+ul.inside{
+list-style-position: inside;
+}
+ul.outside{
+list-style-position: outside;
+}
+
+ul.image{
+	/*list-style-image: url('square.gif');*/
+	/*use like a 10 by 10 images*/
+}
+table {
+	width: 100%;
+	padding: 5px;
+	border: 2px solid #5F11C0;
+	/*affecting the border on the outside*/
+	border-collapse: collapse;
+	/*gets rid of the outside border*/
+}
+.thov:hover{
+	/*background-color: yellow;*/
+}
+table tr:hover{
+	background-color: #ccc;
+}
