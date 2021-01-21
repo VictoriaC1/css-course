@@ -10,7 +10,7 @@ body{
   color: hotpink;
 }
 h1{
-	color: blue;
+	color: #259CF2;
 }
 
 /*the same :active, :visited*/
@@ -80,4 +80,29 @@ table {
 }
 table tr:hover{
 	background-color: #ccc;
+}
+span{
+	display: block;
+	border: 1px solid red;
+}
+.inline{
+	border: 1px solid black; 
+	display: inline;
+}
+.inlineblock1{
+	border: 1px solid green;
+	 display: inline-block;
+}
+.inlineblock2{
+	 border: 1px solid black;
+	 width: 100px;
+	 width: 100px; 
+	 text-align: center;
+	 display: inline-block;
+}
+.height{
+	height: 150px; 
+	width: 150px;
+	border: 1px solid red;
+	display: inline-block;
 }
