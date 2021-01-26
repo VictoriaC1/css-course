@@ -1,6 +1,6 @@
 body{
 	padding: 30px;
-	background-image: url('light-1282314_1920.jpg');
+	background-image: url('images/light-1282314_1920.jpg');
 	background-repeat: repeat-y;
     min-height: 8000px;
     /* overflow-x: hidden; */
@@ -78,7 +78,7 @@ list-style-position: outside;
 }
 
 ul.image{
-	/*list-style-image: url('square.gif');*/
+	/*list-style-image: url('images/square.gif');*/
 	/*use like a 10 by 10 images*/
 }
 table {
