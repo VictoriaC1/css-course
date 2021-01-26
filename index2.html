@@ -6,6 +6,7 @@
 </head>
 
 <body>
+<nav>CSS course, part II</nav>
 <h1>Links</h1>
 <a href="https://www.w3schools.com/css/" style="color: red; text-decoration: none; ">w3schools</a>
 <a href="https://www.w3schools.com/css/" class="link2">w3schools</a>
@@ -146,5 +147,37 @@
 <!--INLINE ELEMENTS CANNOT HAVE A WIDTH-->
 <h2>Height</h2>
 <span class="height">height test</span>
+
+<h2>Position</h2>
+<ul>
+	<li>Static</li> <!--all html text is somewhat static-->
+	<br>
+	<li class="position" style=" position: relative; top: 60px; left: 300px; ">Relative</li>
+	<!--bottom is moving up, top down,left is moving right,...-->
+	<br>
+	<li class="position" style="position: relative;">Absolute</li>
+	    <p style="position: absolute; top: 50%; left: 50%;"> child of element of list element (from the position section)</p>
+	    <!--top: 50%; left: 50%;: the top left corner of the border is perfectly in center, not the element itself, we can use calc(50% - 25px) for right and left-->
+	<br>
+	<!--we add a child element that has the absolute position-->
+
+	<li class="position" style="position: fixed;">Fixed</li>
+	<!--it scrolls down the page with you, we use it with footers, cookies warning, titles, ...-->
+	<!-- the browser thinks the fixed element is not part of the page--->
+</ul>
+
+
+<h2>Overlapping elements with z-index</h2>
+
+<div class="rel">
+	<div class="abs abs1">
+	abs 1
+	</div>
+	<div class="abs abs2">
+	abs2
+	</div>
+</div>
+
+
 </body>
 </html>
