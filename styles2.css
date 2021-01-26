@@ -3,6 +3,7 @@ body{
 	background-image: url('light-1282314_1920.jpg');
 	background-repeat: repeat-y;
     min-height: 8000px;
+    /* overflow-x: hidden; */
 }
 nav{
 	border-bottom-width: 2px; 
