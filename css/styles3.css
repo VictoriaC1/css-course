@@ -33,10 +33,12 @@ button{
 	width: 100px;
 	margin-top: 15px;
 }
- [type] {
-	/*it selects all elements that have a type*/
-	border: 2px solid #ccc;
-	/*we can use  'input [type]'*/
+ 
+[type] {
+/*it selects all elements that have a type*/
+  border: 1px solid #ccc;
+  padding: 5px;
+  /*we can use  'input [type]'*/
 }
 
 [type = 'text']{
@@ -46,11 +48,36 @@ button{
 
 /*we can select and entire form with [action], if it has the attribute*/
 [action = '/login']{
-	border: 5px solid black;
+	border: 3px solid black;
 
 }
-.p [title ~='paragraph']{
-	border: 1px solid red;
-	/*if it has the word 'paragraph' in the title*/
+.fa.fa-question-circle[title~="trust"] {
+  border: 1px solid red;
+
+	/*if it has the word 'trust' in the title*/
 
 }
+[href^="/register"]
+{
+	/* ^ is used for when something starts with something*/
+	/*here it looks for a href element that starts exactly with /register*/
+	/*we have to add the dot*/
+	color: #197BDA;
+	padding: 5px 5px 5px; 
+	text-decoration: underline;
+	display: inline-block;
+}
+
+[href$=".pdf"]
+{
+	/* $ is used when we look at how something ends. 
+	here it searches for the href element that ends in .pdf*/
+	/*we don't have to add the dot*/
+	color: #8FCD2D;
+	display: inline-block;
+	padding: 5px 5px 5px; 
+	text-decoration: underline;
+}
+ a:hover{
+ 	color: black;
+ }
