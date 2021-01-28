@@ -78,6 +78,140 @@ button{
 	padding: 5px 5px 5px; 
 	text-decoration: underline;
 }
- a:hover{
- 	color: black;
- }
+.website {
+  display: inline-block;
+   width: 100px; 
+   height: 100px;
+   background-color: #48DCBB; "
+}
+
+.website:hover {
+  background-color: black;
+  border: 5px solid yellow;
+  }
+  /*!!!!!:
+  .class
+  #id 
+  :pseudo;*/
+
+  p.child:first-child{
+  	/*it selects the first in a set*/
+  	/*the class can be removed*/
+      background-color: black;
+      color: white;
+  }
+
+
+  span:last-child{
+  	background-color: purple; 
+  	color: white;
+
+  }
+
+
+
+  .focusinput{
+  	border: 1px solid black;
+  	width: 100%;
+  	font-size: 30px; 
+  	padding: 10px;
+  	color: #999;
+  	opacity: 0.25;
+  }
+  .focusinput:focus{
+  	/*when we click into it it changes*/
+  	border: 3px solid #ccc; 
+  	outline: 0;
+  	color: black;
+  	opacity: 1;
+  }
+
+
+  input[type="checkbox"]:checked {
+  	/*we gave it the checked pseudo*/
+  	
+  	height: 50px;
+  	width: 50px;
+  }
+  input[type="checkbox"]:checked + div.checkeddiv{
+    /*when the element is checked and it has the specified div after it*/
+    color: #ccc; 
+    background-color: green; 
+  }
+
+  input:disabled{
+  	background-color: black;
+  	border: 3px solid pink; 
+
+  }
+
+  input.disabled2:disabled{
+    background-color: white;
+    border: 1px solid black;
+  }
+  input:enabled{
+  	background-color: #ccc;
+  	border: 1px solid black;
+  }
+
+  p.para:not(.graph){
+  	/*it selects all paragraphs that do not have the "graph" in the class */
+   background-color: red;
+  }
+
+  .block {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 50px auto;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  position: relative;
+}
+
+.block::before {
+	/* :hover can also be added*/
+  display: inline-block;
+  content: ' here is the content ';
+  color: #fff;
+  background-color: #8c1515;
+  position: absolute;
+  left: -20px;
+  top: -20px;
+  width: 200px;
+  height: 200px;
+  z-index: -1;
+}
+
+.block::after {
+  display: inline-block;
+  content: 'another content';
+  color: #fff;
+  background-color: #000;
+  position: absolute;
+  right: -20px;
+  bottom: -20px;
+  width: 200px;
+  height: 200px;
+  z-index: 0;
+}
+
+a[href^='https'] {
+  text-decoration: none;
+}
+
+a[href^='https']::after {
+  content: ' (Secure)';
+  font-size: 12px;
+  color: green;
+}
+
+
+.label.deal::before {
+  content: 'DEAL!!!!';
+  background-color: #000;
+  display: inline-block;
+  padding: 5px;
+  color: yellow;
+  font-size: 14px;
+}

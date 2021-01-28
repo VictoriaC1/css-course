@@ -32,5 +32,87 @@
 	<a href="/benefits.pdf">Benefits.pdf</a>
 </form>
 
+<h1>Pseudo Classes</h1>
+<p>You change the style when the state of an element changes</p>
+<h2>Pseudo selectors:</h2>
+<h3>Hover</h3>
+
+<div class="website" ></div>
+
+<h3>First child</h3>
+<!--part of the document object model-->
+<div id="parent">
+	<p class="child">First p child</p>
+	<p class="child">Second p child</p>
+	<p class="child">Third p child</p>
+</div>
+
+<h3>Last child</h3>
+<div id="parent2">
+	<p>P1</p>
+	<p>P2</p>
+	<p>P3</p>
+	<span>span1</span>
+	<span>span2</span>
+	<span>span3</span>
+</div>
+
+<h3>Focus</h3>
+
+
+<input type="text" name="" class="focusinput" >
+
+<h3>Checked</h3>
+
+<input type="checkbox"  id="cbox">
+<div class="checkeddiv">This is a test</div>
+
+<label for="cbox" style="position: relative; bottom: -20px;">
+<span style="background-color: #ccc; color: black; padding: 5px; display: inline-block;">Click this button</span>
+<!--we styled the span like a button so the checkbox gets triggered and it applies the instructions from the external file-->
+</label>
+<br>
+
+
+<h3>Disabled</h3>
+<input type="text" disabled="disabled">
+
+<h3>Enabled</h3>
+
+<input type="text" >
+<input type="text" disabled="disabled" class="disabled2">
+
+<h3>Not</h3>
+
+<!--used to select everything you do not want-->
+
+
+<p class="paragraph">paragraph1</p>
+<p class="paragraph">paragraph2</p>
+<p class="para">paragraph3</p>
+<p class="paragraph">paragraph4</p>
+<p class="paragraph">paragraph5</p>
+<p class="graph">paragraph2</p>
+
+
+<h3>Before & After</h3>
+<!--for the artsy stuff-->
+<!--used to create content or change certain aspects about it-->
+<div class="block"></div>
+<!--the white  and the black box don't actually exist-->
+
+<p>Welcome to my website. For more information click here: <a href="https://">click here</a></p>
+<p>something something something something something......<span class="label-deal">$149.00</span></p>
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
