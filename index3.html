@@ -114,7 +114,52 @@
 
 <h2>Rounded images</h2>
 
-<div class="roundimage"></div>
+<div style=" display: inline-block;
+  width: 300px;
+  height: 300px;
+
+  border-radius: 100%;
+
+  background-image: url('images/cat.jpg');
+  background-position: center center;"></div>
+
+<h2>Individually rounded corners</h2>
+<div style=" display: inline-block;
+  width: 300px;
+  height: 300px;
+
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+
+  background-image: url('images/cat.jpg');
+  background-position: center center;"></div>
+
+  <div style=" float= right; display: inline-block;
+  width: 300px;
+  height: 300px;
+
+  border-radius: 5px 25% 50% 0; 
+  /*top left, top right, bottom right, bottom left*/
+
+  background-image: url('images/cat.jpg');
+  background-position: center center;"></div>
+
+<h2>Background sizes</h2>
+
+<div  style=" display: inline-block;
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+
+  background-size: 
+  /*cover, contain px, %*/
+
+  background-image: url('images/electronic.jpg');
+  background-position: center center;"></div>
+
+
+
+
 
 </body>
 </html>

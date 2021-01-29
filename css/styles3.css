@@ -223,15 +223,3 @@ a[href^='https']::after {
   font-size: 50px;
   font-weight: bold;
 }
-.roundimage{
-  display: inline-block;
-  border: 2px solid red;
-  width: 200px; 
-  height: 200px;
-  border-radius: 50%; 
-  
-  background-image: url('cat.jpg');
- 
- 
-
-}
