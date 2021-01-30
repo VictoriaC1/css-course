@@ -223,3 +223,43 @@ a[href^='https']::after {
   font-size: 50px;
   font-weight: bold;
 }
+.roundcorners{
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+
+
+  background-image: url('images/cat.jpg');
+  background-position: center center;
+}
+
+
+.rgba{
+  color: rgb(0,0,0,0.5);
+  /*50% lighter */
+  background-color: rgba(27,43,168, 0.3);
+}
+.hsl{
+  background-color: hsl(180, 50%, 70%, 0.8);
+       /*a number between 0-360*/
+}
+.box{
+  display: inline-block;
+  width: 200px; 
+  height: 200px; 
+  background-color: #FEFF88;
+  border: 1px solid black;
+
+}
+.opacity{
+  opacity: 0.5;
+  /* the text, the border, and the background change*/
+}
+.alpha{
+  color: rgba(0, 0, 0, 0.35);
+  /*the background color doesn't change*/
+  background-color: rgba(243, 231, 49, 0.8);
+}

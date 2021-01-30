@@ -146,16 +146,71 @@
 
 <h2>Background sizes</h2>
 
-<div  style=" display: inline-block;
+<div  style="display: inline-block;
   width: 300px;
   height: 300px;
-  border: 2px solid black;
+  border: 1px solid red;
 
-  background-size: 
-  /*cover, contain px, %*/
+  background-size: 90% 90%;
+               /*width, height*/
+  /*cover,contain,percentage, cm,...*/
+  /*contain resizes the image to fit in the div*/
 
-  background-image: url('images/electronic.jpg');
-  background-position: center center;"></div>
+  background-image: url('images/latin.jpg');
+  background-position: center center;
+  /*we can also do center top , or 50px 50px , etc*/
+  background-repeat: no-repeat;
+
+  border: 10px solid green;
+  background-color: red;"></div>
+
+<h2>Two background images</h2>
+
+<div style="display: inline-block;
+  width: 500px;
+  height: 300px;
+  border: 5px solid black;
+
+  background-size: 50%, 100%;
+              
+
+  background-image: url('images/light-1282314_1920.jpg'), url('images/latin.jpg');
+  background-position: left bottom, center center;
+  /*x axis first */
+  
+  background-repeat: repeat-x , no-repeat;"></div>
+
+<div style="display: inline-block;
+   
+  width: 500px;
+  height: 300px;
+  border: 5px solid black;
+
+  background-size: 50%, 100%;
+              
+
+  background-image: url('images/light-1282314_1920.jpg'), url('images/latin.jpg'), url('images/cat.jpg');
+  background-position: left bottom, center center;
+  /*x axis first */
+  
+  background-repeat: repeat-x , no-repeat;"></div>
+
+
+<h2>Colors RGBA</h2>
+<!-- see through text-->
+<!-- RGBA - Red Green Blue Alpha-->
+<!--alpha is the opacity-->
+<p class="rgba">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a nibh ullamcorper lorem varius auctor. Suspendisse aliquam eros eget purus vehicula ultrices. Etiam in lacus finibus, ornare lorem eu, molestie orci. Nulla facilisi. Pellentesque et sapien ut sem elementum ornare. In sapien nulla, luctus sit amet malesuada eget, mattis at augue. Duis porta sapien vel felis condimentum, at cursus mauris lobortis. Duis iaculis augue at dui feugiat commodo. In eget leo eget mi ultrices scelerisque.</p>
+
+<h2>Colors HSL and HSLA</h2>
+
+<!--HUE SATURATION LIGHTNESS-->
+
+<p class="hsl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a nibh ullamcorper lorem varius auctor. Suspendisse aliquam eros eget purus vehicula ultrices. Etiam in lacus finibus, ornare lorem eu, molestie orci. Nulla facilisi. Pellentesque et sapien ut sem elementum ornare. In sapien nulla, luctus sit amet malesuada eget, mattis at augue. Duis porta sapien vel felis condimentum, at cursus mauris lobortis. Duis iaculis augue at dui feugiat commodo. In eget leo eget mi ultrices scelerisque.</p>
+
+<h2>Opacity vs Alpha</h2>
+<div class="box opacity">Opacity</div>
+<div class="box alpha">Alpha</div>
 
 
 
