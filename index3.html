@@ -4,6 +4,8 @@
 	<title>CSS course #3</title>
 	<link rel="stylesheet" type="text/css" href="css/styles3.css">
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noticia+Text&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -211,6 +213,48 @@
 <h2>Opacity vs Alpha</h2>
 <div class="box opacity">Opacity</div>
 <div class="box alpha">Alpha</div>
+
+<h1>Linear gradients</h1>
+<!--color transforms into another-->
+<div style="display: inline-block; border: 1px solid black; height: 200px; width: 700px; background-color: #470B2C;
+background: linear-gradient(#470B2C, #FFBBE0);
+"></div>
+<div style=" display: inline-block; border: 1px solid black; height: 200px; width: 700px; background-color: #ccc;
+background: linear-gradient(to right, #ccc, white); /*we can also do 'to bottom right', etc*/
+"></div>
+<!--if we want to add gradients to the body we can make a box that contains all the body, of a given height and widht-->
+
+<br>
+<h2>Color and transparency</h2>
+<!--the body-->
+
+<div style=" display: inline-block; border: 1px solid black; height: 200px; width: 700px; background-color: #1A24C5;
+background: linear-gradient(to top, rgba(0,0,0, 1),rgba(125,125,125,0.1)); /*we can also do 88deg for ex, deg means degrees*/
+"></div>
+
+<h2>Repeating linear gradients</h2>
+
+<div style=" display: inline-block; border: 1px solid black; height: 200px; width: 700px;  background: repeating-linear-gradient(10deg,red, blue 10%, yellow 80%);
+"></div>
+<h1>Radial gradients</h1>
+<!--a circle that goes into other colors-->
+
+<div style=" display: inline-block; border: 1px solid black; height: 300px; width: 300px; border-radius: 50%; background: radial-gradient(circle, red 10%,#4750DE 35%, #57DD44 55%); /*if the div were a square the default shape would be a 'ellipse' so that's why we add 'circle'; so it has the form we want*/
+"></div>
+<h2>Repeating linear gradients</h2>
+
+<div style=" display: inline-block; border: 1px solid black; height: 300px; width: 300px; background: repeating-radial-gradient(circle, red,#4750DE 5%, #57DD44 15%); 
+"></div>
+<h2>Gradient tools</h2>
+
+<a href="https://polychroma.now.sh">Polychroma</a> <br>
+<a href="www.colorzilla.com/gradient-editor/">Ultimate css gradient generator</a>
+
+
+
+
+
+
 
 
 
