@@ -373,3 +373,89 @@ a[href^='https']::after {
   .text5{
       font-family: newfont;
   }
+
+.transi-size{
+  display: inline-block;
+  width: 30px;
+  height: 30px; 
+  background-color: blue;
+  transition: 250ms width linear,
+  /*lenght: how much should it take, ms for milliseconds, s for seconds; what is transitioning; 
+  speed curvure: how the transition is done;*/
+              250ms height linear;
+  /*if we do not mention the height then that's  done instantly, and only the widht is is transitioning*/
+  /*transition: 250ms all linear;*/
+}
+.transi-size:hover{
+  width: 100px; 
+  height: 100px;
+}
+
+.transi-colors{
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+
+  transition-duration: 1s;
+  transition-property: color;
+  transition-timing-function: linear;
+}
+.transi-colors:hover{
+  color: red; 
+  text-decoration: underline;
+}
+
+.parent{
+  position: relative;
+  height: 50px; 
+  background-color: white;
+}
+.child{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px; 
+  height: 50px; 
+  background-color: orange;
+
+  transition-duration: 2s; 
+  transition-property: left; 
+  transition-timing-function: ease-in-out;
+  /*ease-in: it starts slowly and picks up speed;*/
+  /*ease-out: it starts at a regular speed and slows down;
+  ease-in-out: it starts slows, goes fast, and slows down;
+  ease is the default*/
+  /*linear is the same speed all the way*/
+
+  /*there are ways to create your own transition timing function, it looks like:
+  cubic-bezier(n,n,n,n);*/
+}
+.parent:hover .child{
+  left: calc(100% - 50px);
+  /*it goes 100% to the left except 50px*/
+}
+
+
+.parent2 {
+  position: relative;
+  height: 50px;
+  background-color: #fff;
+}
+
+.child2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  background-color: #8c1515;
+  transition-duration: 5s;
+  transition-property: left;
+  transition-timing-function: linear;
+  transition-delay: 2s;
+}
+
+.parent2:hover .child2 {
+  left: calc(100% - 50px);
+}
+
