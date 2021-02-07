@@ -590,3 +590,33 @@ background-color: #000;
 }
 
 
+@keyframes animation-test{
+  /*we say what should happen at every percent*/
+}
+
+#animation-test{
+  animation: animation-test; 
+  animation-duration: 
+}
+
+@keyframes boxanimation{
+  /*because we have a 4s animations this means that these keyframes are: */
+  0%{border: 3px solid red;}                                                    /*first second*/
+  25%{ width: 100%; }                                                           /*2nd second*/
+  50%{ height: 500px; }                                                        /*3rd second*/
+
+  100%{border: 3px solid red;  }                                                /*4th second*/
+}
+.box-an{
+  margin: 0 auto;
+  width: 150px; 
+  height: 150px; 
+  border: 1px solid black solid #aaa;
+  background-color: #ccc;
+
+  animation: boxanimation;
+  animation-duration: 4s;
+
+}
+
+
