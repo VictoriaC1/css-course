@@ -731,3 +731,7 @@ background-color: #000;
   animation-timing-function: ease-in-out;
 
 }
+#column{
+  /*great only for text*/
+  columns: 3;
+}
