@@ -564,4 +564,29 @@ a[href^='https']::after {
   background-color: blue;
 }
 
+.box-3d{
+  width: 80px;
+  height: 80px;
+  padding: 20px;
+  background-color: #8c1515;
+  text-align: center;
+  color: #fff;
+  margin-right: 10px;
+  margin: 0 auto;
+
+  transition: 1s all ease-out;
+}
+
+.box-3d:hover {
+/*  transform: rotateX(180deg)
+             rotateY(180deg)
+             rotateZ(180deg);
+*/
+  /*transform: skewX(30deg) skewY(-30deg);*/
+  /*transform: scaleX(2) scaleY(3);*/
+  transform: translateX(50px)
+             translateY(50px);
+background-color: #000;
+}
+
 
