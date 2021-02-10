@@ -735,3 +735,23 @@ background-color: #000;
   /*great only for text*/
   columns: 3;
 }
+
+textarea{
+  resize: vertical; 
+  /*none,both, vertical, horizontal*/
+  height: 200px;
+  width: 300px;
+}
+.box11, .box22{
+  border: 1px solid red;
+  margin-bottom: 30px;
+}
+.box11{
+  box-sizing: content-box; /*default*/
+  padding: 20px;
+}
+.box22{
+  box-sizing: border-box; /*doesn't add anything to the width*/
+  width: 400px; /*the box will always remain this wide*/
+  padding: 20px 100px;
+}
