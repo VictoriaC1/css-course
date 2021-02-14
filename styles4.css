@@ -51,3 +51,44 @@ body{
 
 	order: 3;
 }
+
+.flex-parent2{
+	display: flex;
+	border: 1px solid red;
+	flex-direction: column;
+
+}
+.col4,.col5,.col6{
+	border: 1px solid blue;
+	flex-basis: 33%;
+	flex-shrink: 1;
+	flex-grow: 1;
+
+}
+
+.flex-parent3 {
+  display: flex;
+  border: 1px solid red;
+  flex-direction: column-reverse;
+}
+
+.col7, .col8, .col9 {
+  border: 1px solid blue;
+  flex-basis: 33%;
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+
+.row{
+	
+	border: 1px solid red;
+	display: flex;
+	
+
+}
+.col{
+	border: 1px solid blue; 
+	flex-basis: 33%;
+	flex-shrink: 1;
+	flex-grow: 1;
+}
