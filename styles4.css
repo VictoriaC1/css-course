@@ -13,8 +13,7 @@ body{
 .flex-parent{
 	display: flex;
 	border: 1px solid red;
-}
-.flex-parent div{
+
 	border: 1px solid blue;
 	/*flex-basis: 33%;*/
 
@@ -79,16 +78,16 @@ body{
   flex-grow: 1;
 }
 
-.row{
+.row div{
 	
-	border: 1px solid red;
+	
 	display: flex;
+	border: 1px solid pink;
 	
 
 }
 .col{
 	border: 1px solid blue; 
 	flex-basis: 33%;
-	flex-shrink: 1;
-	flex-grow: 1;
+	
 }
